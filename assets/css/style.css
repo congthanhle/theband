@@ -180,7 +180,7 @@ html{
 #slider{
    margin-top: 46.4px;
    padding-top: 50%;
-   background: url('../assets/img/slider1.jpg') top center /cover no-repeat;
+   background: url('../img/slider1.jpg') top center /cover no-repeat;
    position: relative;
 }
 
@@ -191,13 +191,17 @@ html{
     left: 50%;
     transform:translateX(-50%);
     text-align: center;
+
 }
 #slider .text-heading{
     font-size: 150%;
     margin-bottom: 5%;
 }
 #slider .text-description{
-    font-size: 110%;
+    font-size: 15px;
+    margin-top: 25px;
+    text-shadow: 0 0 1px #000;
+
 }
 #content{
     
